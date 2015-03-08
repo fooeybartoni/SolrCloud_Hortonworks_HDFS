@@ -125,7 +125,3 @@ do
 	 JETTY_STOP_PORT=$((JETTY_STOP_PORT+1))
 	 echo ""
 done
-
-# -DzkHost, -DnumShards, -Dbootstrap_confdir
-
-# sudo ./startHdfsSolr.sh cnn 2 3500 schema.xml 2 solrconfig.xml

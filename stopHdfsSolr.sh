@@ -18,4 +18,3 @@ do
 	 JETTY_STOP_PORT=$((JETTY_STOP_PORT+1))
 done
 
-# sudo ./stopHdfsSolr.sh 2500 4

@@ -17,6 +17,6 @@ Download Zookeeper version 3.4.6:
 http://zookeeper.apache.org/
 
 Download Hortonworks - HDP 2.2 on Sandbox: 
-http://hortonworks.com/hdp/downloads
+http://hortonworks.com/hdp/downloads
 
 
