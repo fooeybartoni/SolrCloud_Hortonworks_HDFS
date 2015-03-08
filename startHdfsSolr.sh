@@ -65,6 +65,7 @@ echo "SOLR ZOOKEEPER(S): " ${ZK_HOST};
 
 echo "SOLR LOGGING DIR: " ${LOG_DIR};
 echo "SOLR JETTY STOP PORT: " ${JETTY_STOP_PORT};
+echo "SOLR JETTY SERVER COUNT: " ${JETTY_SERVER_COUNT};
 echo "SOLR JETTY STOP KEYWORD: " ${JETTY_STOP_KEYWORD};
 echo "SOLR JAVA OPTIONS: " ${SOLR_JAVA_OPTS};
 echo "***********************************************************";
