@@ -18,3 +18,4 @@ do
 	 JETTY_STOP_PORT=$((JETTY_STOP_PORT+1))
 done
 
+echo "DONE!"
