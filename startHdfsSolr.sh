@@ -104,7 +104,7 @@ do
 		-DSTOP.KEY=${JETTY_STOP_PORT}${JETTY_STOP_KEYWORD} \
 		-Dsolr.solr.logging=${LOG_DIR}/${LOG_DIR_NAME}$c -jar start.jar &
 		
-		echo "STARTED SOLR LEADER $c ON JETTY_PORT: ${JETTY_PORT}"
+		echo "STARTED SOLR SHARD $c ON JETTY_PORT: ${JETTY_PORT}"
 		echo "java ${SOLR_JAVA_OPTS} -Dbootstrap_confdir=${BOOTSTRAP_CONFDIR} -DnumShards=${NUM_SHARDS} -Dsolr.data.dir=${HDFS_DATA_DIR}/${COLLECTION_CONFIGNAME}/${SHARD_DIR_NAME}$c -Djetty.port=${JETTY_PORT} -DSTOP.PORT=${JETTY_STOP_PORT} -DSTOP.KEY=${JETTY_STOP_PORT}${JETTY_STOP_KEYWORD} -Dsolr.solr.logging=${LOG_DIR}/${LOG_DIR_NAME}$c -jar ${SOLR_HOME}/start.jar &"
 		
 		sleep 2
@@ -116,7 +116,7 @@ do
 		-DSTOP.KEY=${JETTY_STOP_PORT}${JETTY_STOP_KEYWORD} \
 		-Dsolr.solr.logging=${LOG_DIR}/${LOG_DIR_NAME}$c -jar start.jar &
 		
-		echo "STARTED SOLR LEADER $c ON PORT: ${JETTY_PORT}"
+		echo "STARTED SOLR SHARD $c ON PORT: ${JETTY_PORT}"
 		echo "java ${SOLR_JAVA_OPTS} -Dsolr.data.dir=${HDFS_DATA_DIR}/${COLLECTION_CONFIGNAME}/${SHARD_DIR_NAME}$c -Djetty.port=${JETTY_PORT} -DSTOP.PORT=${JETTY_STOP_PORT} -DSTOP.KEY=${JETTY_STOP_PORT}${JETTY_STOP_KEYWORD} -Dsolr.solr.logging=${LOG_DIR}/${LOG_DIR_NAME}$c -jar ${SOLR_HOME}/start.jar &"
 		
 		sleep 1
