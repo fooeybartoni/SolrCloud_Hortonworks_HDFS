@@ -13,5 +13,3 @@
       <int name="solr.hdfs.nrtcachingdirectory.maxmergesizemb">16</int>
       <int name="solr.hdfs.nrtcachingdirectory.maxcachedmb">192</int>
 </directoryFactory>
-
-<lockType>${solr.lock.type:hdfs}</lockType>
