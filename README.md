@@ -4,6 +4,9 @@ version 4.10.3. It demonstrate how configure the Apache Solr binaries
 so that you can create any number of SolrCloud instances without having
 the need to modified the binaries.
 
+YouTube Video:
+http://youtu.be/UwMrh4dJN-c
+
 Download sample SolrCloud scripts:
 https://github.com/gutierrezga00/SolrCloud_Hortonworks_HDFS
 
